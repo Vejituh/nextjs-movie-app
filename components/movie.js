@@ -15,7 +15,7 @@ export default function Movie({ movie }) {
       {console.log(movie)}
       <div>
         <Head>
-          <title>Create Next App</title>
+          <title>{movie.title}</title>
           <link rel="icon" href="/favicon.ico" />
           <link
             rel="stylesheet"
@@ -242,6 +242,7 @@ export default function Movie({ movie }) {
           .movie-watch {
             grid-area: button;
             place-content: flex-start;
+            align-self:flex-start;
           }
         }
       `}</style>

@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <div>
         <Head>
-          <title>Create Next App</title>
+          <title>Movies</title>
           <link rel="icon" href="/favicon.ico" />
           <link rel="stylesheet" type="text/css" href="//use.fontawesome.com/releases/v5.7.2/css/all.css" />
         </Head>
